@@ -15,7 +15,7 @@ const Sort:FC = () => {
   
   const { t } = useTranslation()
   const { setSortValue, sortValue } = productStore()
-  const [selectedOption, setSelectedOption] = useState(null)
+  const [selectedOption, setSelectedOption] = useState<typeof options[0] | null>(null)
 
   const translatedOptions = options.map(option => ({
     ...option,
@@ -45,7 +45,7 @@ const Sort:FC = () => {
       color: '#9aa0b4',
     }),
     indicatorsContainer: () => ({
-      display: 'none' // ❌ скрывает стрелку вниз и разделительную палочку
+      display: 'none' 
     }),
   };
   

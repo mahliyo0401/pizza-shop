@@ -28,7 +28,7 @@ export interface IProduct {
 }
 
 export interface ICartProduct extends IProduct {
-    count: number;
+    count?: number;
 }
 
 export interface IUpdateUser {
