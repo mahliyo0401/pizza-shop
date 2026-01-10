@@ -1,0 +1,28 @@
+Pizza Delivery App (Full-Stack Experience)
+A modern, high-performance pizza ordering application built with a focus on seamless user experience, complex state management, and localized content.
+
+Live Demo: https://pizza-shop-mu-five.vercel.app/login
+
+Key Features Multilingual Support: Dynamic language switching for a global user experience.
+
+Advanced Filtering & Sorting: Users can sort items by price, popularity, or name.
+
+Real-time Search: Instant pizza lookup functionality using efficient filtering logic.
+
+Authentication System: Secure user login to access personalized ordering features.
+
+Smart Shopping Cart: Full state control (Add/Remove/Update) using Redux Toolkit.
+
+Responsive UX: Fully optimized for mobile, tablet, and desktop screens.
+
+Tech Stack Frontend: React 18
+
+Type Safety: TypeScript
+
+State Management: Redux Toolkit (@reduxjs/toolkit)
+
+Routing: React Router 6
+
+Styling: Tailwind CSS
+
+Deployment: Vercel
